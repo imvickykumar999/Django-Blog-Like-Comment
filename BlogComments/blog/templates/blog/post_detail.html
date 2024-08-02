@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to the blog home page. Read our latest posts on various topics.">
-
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
     <title>{{ post.title }}</title>
     <style>
         body {
@@ -268,10 +269,14 @@
             cursor: pointer;
         }
         
-        .like-dislike-buttons button img {
-            width: 32px;
-            height: 32px;
+        .like-icon {
+            font-size: 24px; /* Adjust size */
+            color: green; /* Adjust color */
         }
+        .dislike-icon {
+            font-size: 24px; /* Adjust size */
+            color: red; /* Adjust color */
+        }  
         
         .comments-section h2 {
             text-align: center;
@@ -331,7 +336,12 @@
         .comments-section button:hover {
             background-color: #45a049;
         }
-        
+
+        .tab-gap {
+            display: inline-block;
+            width: 2em; /* Adjust this value to change the gap size */
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .blog-post {
@@ -396,20 +406,20 @@
                 <div>{{ post.content|safe }}</div>
             </div>
             <div class="post-interactions">
-                <p>Likes: {{ likes }} | Dislikes: {{ dislikes }}</p>
+                <p>Likes: {{ likes }} <span class="tab-gap"></span> Dislikes: {{ dislikes }}</p>
                 {% if user.is_authenticated %}
                     <div class="like-dislike-buttons">
                         <form method="post" style="display:inline;">
                             {% csrf_token %}
                             <button type="submit" name="like">
-                                <img src="{% static 'blog/like-icon.png' %}" alt="Like" class="like-dislike-icon">
+                                <i class="bi bi-hand-thumbs-up like-icon"></i>
                             </button>
                         </form>
+                        <span class="tab-gap"></span>
                         <form method="post" style="display:inline;">
                             {% csrf_token %}
                             <button type="submit" name="dislike">
-                                <img src="{% static 'blog/dislike-icon.png' %}" alt="Dislike" class="like-dislike-icon">
-                            </button>
+                                <i class="bi bi-hand-thumbs-down dislike-icon"></i>
                         </form>
                     </div>
                 {% else %}
