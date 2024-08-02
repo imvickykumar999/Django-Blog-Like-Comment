@@ -4,7 +4,7 @@
 >![image](https://github.com/user-attachments/assets/1dccd46d-c7b4-4c56-a435-ed969f1dd0a7)
 >
 >## `Detailed blog`
->![image](https://github.com/user-attachments/assets/da0e7b62-4959-4c39-9a64-8e3b54f0d1d3)
+>![image](https://github.com/user-attachments/assets/d1b40544-0f81-4773-a578-d6b8d4131d7a)
 >
 >## `Create new blog`
 >![image](https://github.com/user-attachments/assets/386706b1-7071-4113-9861-5ba565c0e16d)
