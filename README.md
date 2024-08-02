@@ -1,18 +1,18 @@
-# [`Django Blogs`](https://vicksblog.pythonanywhere.com/)
+# `Django Blog` : *`Feature`* [`Like Comment Share`](https://vicksbloglikecomment.pythonanywhere.com/)
 
->## `Home page`
+>## `Home Page`
 >![image](https://github.com/user-attachments/assets/1dccd46d-c7b4-4c56-a435-ed969f1dd0a7)
 >
->## `Detailed blog`
+>## `Detailed Blog`
 >![image](https://github.com/user-attachments/assets/d1b40544-0f81-4773-a578-d6b8d4131d7a)
 >
->## `Create new blog`
->![image](https://github.com/user-attachments/assets/386706b1-7071-4113-9861-5ba565c0e16d)
+>## `Create New Blog`
+>![image](https://github.com/user-attachments/assets/e94e184e-c2cf-41ca-95de-d4a117e6f9cf)
 >
 >## `Responsive CSS`
 >![image](https://github.com/user-attachments/assets/9130481c-ce53-4404-89a4-6b8e702fc0e4)
 >![image](https://github.com/user-attachments/assets/7682f1ae-8af1-4902-a73d-afcb3d972d27)
 >
->## `Better Performance`
->![image](https://github.com/user-attachments/assets/31b39f67-81c3-4e42-a070-43e4f8487b3e)
->![image](https://github.com/user-attachments/assets/d1201474-eab7-4d28-a004-319a08df7351)
+>## `Best Performance`
+>![image](https://github.com/user-attachments/assets/be42a684-7229-4e2e-8c31-722449da23fa)
+>![image](https://github.com/user-attachments/assets/90504480-cc9e-4c96-b590-61c48969cc48)
