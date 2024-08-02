@@ -9,6 +9,16 @@
 >## `Create New Blog`
 >![image](https://github.com/user-attachments/assets/e94e184e-c2cf-41ca-95de-d4a117e6f9cf)
 >
+>## `Solving Permission Error`
+>
+>      15:33 ~/blogproject $ ls -ld /home/VicksBlogLikeComment/blogproject/media/blog_images/
+>      dr-xr-xr-x 2 VicksBlogLikeComment registered_users 4096 Aug  2 15:02 /home/VicksBlogLikeComment/blogproject/media/blog_images/
+>   
+>      15:59 ~/blogproject $ chmod 775 /home/VicksBlogLikeComment/blogproject/media/blog_images/
+> 
+>      16:00 ~/blogproject $ ls -ld /home/VicksBlogLikeComment/blogproject/media/blog_images/
+>      drwxrwxr-x 2 VicksBlogLikeComment registered_users 4096 Aug  2 15:02 /home/VicksBlogLikeComment/blogproject/media/blog_images/
+>
 >## `Responsive CSS`
 >![image](https://github.com/user-attachments/assets/9130481c-ce53-4404-89a4-6b8e702fc0e4)
 >![image](https://github.com/user-attachments/assets/7682f1ae-8af1-4902-a73d-afcb3d972d27)
