@@ -9,7 +9,7 @@
 >## `Create New Blog`
 >![image](https://github.com/user-attachments/assets/e94e184e-c2cf-41ca-95de-d4a117e6f9cf)
 >
->## `Solving Permission Error`
+>## `Solving Permission Error` : [`Tutorial`](https://youtu.be/nFm7jip6yac)
 >
 >      15:33 ~/blogproject $ ls -ld /home/VicksBlogLikeComment/blogproject/media/blog_images/
 >      dr-xr-xr-x 2 VicksBlogLikeComment registered_users 4096 Aug  2 15:02 /home/VicksBlogLikeComment/blogproject/media/blog_images/
