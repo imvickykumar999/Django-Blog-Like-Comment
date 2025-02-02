@@ -1,0 +1,23 @@
+Django>=3.2,<5.0
+
+# Additional packages for authentication, forms, and database interactions
+djangorestframework>=3.12
+
+# If using PostgreSQL
+psycopg2>=2.8
+
+# For environment variable management (optional but recommended)
+python-dotenv>=0.15
+
+# Pillow if dealing with image uploads
+Pillow>=8.0
+
+# Optional: Add other dependencies based on project requirements
+# django-crispy-forms for better form rendering
+django-crispy-forms>=1.11
+
+# For managing CORS headers (if building an API)
+django-cors-headers>=3.5
+
+django-jazzmin
+django-ckeditor
