@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-&-m_e4aa_4cz7o2f!ceqv-hn9xgi%@*r(v*p@4f+5pai)riehy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vicksblogcomment.pythonanywhere.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = [
+    'vicksblogcomment.pythonanywhere.com', 
+    '127.0.0.1', 
+    'localhost',
+    '.ngrok-free.app',
+]
 
 # Application definition
 
