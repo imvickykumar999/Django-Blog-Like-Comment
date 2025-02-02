@@ -1,9 +1,14 @@
 # `Django Blog` : *`Feature`* [`Like Comment Share`](https://vicksbloglikecomment.pythonanywhere.com/)
 
+`Ngrok` : [`server`](https://dashboard.ngrok.com/get-started/setup/linux)
+---
+
 ```bash
 ngrok http --url=free-camel-deadly.ngrok-free.app 8000
 python manage.py runserver
 ```
+
+<br>
 
 >## `Home Page`
 >![image](https://github.com/user-attachments/assets/1dccd46d-c7b4-4c56-a435-ed969f1dd0a7)
