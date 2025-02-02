@@ -33,10 +33,14 @@ ALLOWED_HOSTS = [
     '.ngrok-free.app',
 ]
 
-# Application definition
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.ngrok-free.app",  # Add your ngrok URL
+]
 
+# Application definition
 INSTALLED_APPS = [
     'jazzmin',
+    'ckeditor',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
